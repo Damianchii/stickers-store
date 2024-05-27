@@ -2,7 +2,7 @@
   "name": "sticker-store",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://gitname.github.io/react-gh-pages",
+  "homepage": "https://Damianchii.github.io/stickers-store",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
