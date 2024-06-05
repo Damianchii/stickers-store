@@ -39,7 +39,7 @@ const Navbar = () => {
 					</button>
 				</Link>
 
-				<img src={cart_icon} alt='cart' />
+				<Link to="/cart"><img src={cart_icon} alt='cart' /></Link>
 				<div className='w-[22px] h-[22px] flex justify-center items-center mt-[-35px] ml-[-55px] rounded-full text-md text-white bg-red-400'>
 					0
 				</div>
