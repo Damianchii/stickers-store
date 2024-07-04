@@ -13,7 +13,6 @@ const Offers = () => {
 				</button>
 			</div>
 			<div className='flex-1 flex items-center justify-items-end pt-[50px]'>
-				{/*offers right*/}
 				<img src={exclusive_image} alt='exclusive image' />
 			</div>
 		</div>

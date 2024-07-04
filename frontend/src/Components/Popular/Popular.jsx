@@ -8,11 +8,10 @@ const Popular = () => {
 			<h1 className='text-[#171717] text-[50px] font-semibold'>POPULAR IN WOMEN</h1>
 			<hr className='200px 6px rounded-full bg-[#252525]' />
 			<div className='flex mt-[50px] gap-[30px]'>
-				{/*popular item */}
-				{data_product.map((item, index) => {
+				{data_product.map((item, key) => {
 					return (
 						<Item
-							key={index}
+							key={key}
 							id={item.id}
 							name={item.name}
 							image={item.image}
